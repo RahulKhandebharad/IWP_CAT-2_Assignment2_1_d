@@ -1,0 +1,54 @@
+<html>
+   <head>
+      <title>JavaScript Date Object - Methods</title>
+   </head>
+   
+   <body>   
+      <script type = "text/javascript">
+         document.write("JavaScript Date Object - Methods");
+          
+         document.write("<br />");
+         document.write("<br />");
+          
+         var dt = Date();
+         document.write("Date and Time : " + dt ); 
+          
+         document.write("<br />");
+         document.write("<br />");
+          
+         var dt1 = new Date("December 25, 1995 23:15:00");
+         document.write("getDay() : " + dt1.getDay() );
+          
+         document.write("<br />");
+         document.write("<br />");
+        
+         document.write("getTime() : " + dt1.getTime() );
+          
+         document.write("<br />");
+         document.write("<br />");
+          
+         var dt = new Date();
+         var tz = dt.getTimezoneOffset(); 
+         document.write("getTimezoneOffset() : " + tz );
+          
+         document.write("<br />");
+         document.write("<br />");
+          
+         document.write("getUTCDate() : " + dt1.getUTCDate() );
+          
+         document.write("<br />");
+         document.write("<br />");
+          
+         var dt = new Date( "Aug 28, 2008 23:30:00" );
+         dt.setDate( 24 );
+         document.write( dt );
+          
+         document.write("<br />");
+         document.write("<br />");
+         
+          var dateobject = new Date(1993, 6, 28, 14, 39, 7);
+         document.write( dateobject.valueOf() ); 
+ 
+      </script>      
+   </body>
+</html>
